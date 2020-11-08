@@ -1,8 +1,20 @@
 {
-    "devDependencies": {
-        "live-server":"1.2.1"
-    },
-    "scripts": {
-        "dev" : "liver-server . "
-    }
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "html info-cern-ch",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "javascript",
+    "info-cern-ch"
+  ]
 }
+>>>>>>> 139853e0fbc86a5a85bb00a7861417a836dd4dfe
